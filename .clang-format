@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: BlockIndent
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeTernaryOperators: false
+ReflowComments: false
+SortIncludes: false
+AlignConsecutiveAssignments: true  # 对齐连续的赋值语句
+AlignConsecutiveDeclarations: true  # 对齐连续的声明语句
+ColumnLimit: 0 # 设置为0表示不限制行宽
+ContinuationIndentWidth: 2 # 设置续行缩进宽度为2个空格

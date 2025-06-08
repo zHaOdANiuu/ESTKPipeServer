@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    ".cache": true,
+    "build": true
+  },
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes",
+    "CMakeLists.txt": "CMakePresets.json, .clang-format",
+    "*.h": "${capture}.cpp",
+    "*.hpp": "${capture}.cpp",
+    "main.cpp": "main.r"
+  }
+}
