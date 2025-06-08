@@ -34,7 +34,7 @@ cmake --build .
 
 ### 2. 官方调试工具限制
 
-使用 Adobe 官方的 [ExtendScript Debugger](https://www.adobe.com/devnet/scripting.html) 需要依赖 Node.js 环境,并且逆向分析表明 Adobe 使用私有的 BridgeTalk 协议实现通信,难以二次开发
+使用 Adobe 官方的 [ExtendScript Debugger](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug) 需要依赖 Node.js 环境,并且逆向分析表明 Adobe 使用私有的 BridgeTalk 协议实现通信,难以二次开发
 
 ### ESTKPipeServer 通过自主实现的管道通信方案,完美解决了上述痛点,遥遥领先
 
